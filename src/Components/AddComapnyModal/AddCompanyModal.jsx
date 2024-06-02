@@ -48,7 +48,7 @@ const AddCompanyModal = ({
         boxShadow={"24"}
         padding={"20px"}
       >
-        <StyledBox padding={"10px"} full={'true'} display={"flex"} justifyContent={"between"} gap={'10px'} alignitems={"center"} >
+        <StyledBox padding={"10px"} full={'true'} display={"flex"} justifyContent={"between"} gap={'10px'} $alignitems={"center"} >
             
           <StyledBox customwidth={'90%'} display={'flex'} justifyContent={'center'}>
             <StyledTypography fontWeight={'bold'}>Add Company Modal </StyledTypography>

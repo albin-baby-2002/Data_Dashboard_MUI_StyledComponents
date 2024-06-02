@@ -75,9 +75,9 @@ export default function CustomTableHead({
                   ) : null}
                 </TableSortLabel>
                 <StyledDiv
-                  pointer={"true"}
+                  $pointer={"true"}
                   display={"flex"}
-                  alignitems={"center"}
+                  $alignitems={"center"}
                 >
                   {/* search icon to toggle search modal of each column */}
                   <SearchIcon

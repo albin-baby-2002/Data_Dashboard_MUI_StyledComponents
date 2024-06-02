@@ -14,7 +14,7 @@ const ColumnSearchFilter = ({
     <StyledPaper
       display={"flex"}
       gap={"10px"}
-      alignitems={"center"}
+      $alignitems={"center"}
       justifycontent={"between"}
       position={"absolute"}
       right={"0"}

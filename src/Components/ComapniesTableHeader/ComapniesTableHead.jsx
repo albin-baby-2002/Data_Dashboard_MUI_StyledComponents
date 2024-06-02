@@ -28,13 +28,13 @@ const ComapniesTableHead = ({
             variant="text"
             onClick={() => {setSearchTerms({})}}
           >
-            <StyledBox display={"flex"} alignitems={"center"} gap={"10px"}>
+            <StyledBox display={"flex"} $alignitems={"center"} gap={"10px"}>
               <FilterListOff />
             </StyledBox>
           </StyledButton>
 
           <StyledButton variant="text" onClick={openFilterModal}>
-            <StyledBox display={"flex"} alignitems={"center"} gap={"10px"}>
+            <StyledBox display={"flex"} $alignitems={"center"} gap={"10px"}>
               <ResponsiveButtonTypography fontWeight={"bold"}>
                 Filter
               </ResponsiveButtonTypography>
@@ -49,7 +49,7 @@ const ComapniesTableHead = ({
           gap={"10px"}
         >
           <StyledButton variant="text" onClick={handleExport}>
-            <StyledBox display={"flex"} alignitems={"center"} gap={"10px"}>
+            <StyledBox display={"flex"} $alignitems={"center"} gap={"10px"}>
               <ResponsiveButtonTypography xshide={"true"} fontWeight={"bold"}>
                 {"Download "}
               </ResponsiveButtonTypography>
@@ -58,7 +58,7 @@ const ComapniesTableHead = ({
           </StyledButton>
 
           <StyledButton variant="text" onClick={openAddCompanyModal}>
-            <StyledBox display={"flex"} alignitems={"center"} gap={"10px"}>
+            <StyledBox display={"flex"} $alignitems={"center"} gap={"10px"}>
               <ResponsiveButtonTypography fontWeight={"bold"} xshide={"true"}>
                 {"Add Companies"}
               </ResponsiveButtonTypography>
