@@ -1,0 +1,117 @@
+{
+  "headCells": [
+    {
+      "id": "companies",
+      "numeric": false,
+      "label": "Companies",
+      "dataType": "string"
+    },
+    {
+      "id": "country",
+      "numeric": false,
+      "label": "Country",
+      "dataType": "string"
+    },
+    {
+      "id": "industry",
+      "numeric": false,
+      "label": "industry",
+      "dataType": "string"
+    },
+    {
+      "id": "stage",
+      "numeric": false,
+      "label": "Stage",
+      "dataType": "string"
+    },
+    {
+      "id": "fundedby",
+      "numeric": false,
+      "label": "Funded by",
+      "dataType": "string"
+    }
+  ],
+
+  "rows": [
+    {
+      "id": 1,
+      "companies": "Apolo",
+      "country": "India",
+      "industry": "Tyres",
+      "stage": "Public",
+      "fundedby": "MRF Holdings"
+    },
+    {
+      "id": 2,
+      "companies": "Bonut",
+      "country": "Ireland",
+      "industry": "Electronics",
+      "stage": "Seed",
+      "fundedby": "Tiger Capitals"
+    },
+    {
+      "id": 3,
+      "companies": "Cclair",
+      "country": "West Indies",
+      "industry": "Finance",
+      "stage": "Series-B",
+      "fundedby": "Raj Group"
+    },
+    {
+      "id": 4,
+      "companies": "Drozen",
+      "country": "Japan",
+      "industry": "Furniture",
+      "stage": "Final",
+      "fundedby": "Yo Group"
+    },
+    {
+      "id": 5,
+      "companies": "Tata Finance",
+      "country":"India",
+      "industry": "Automotive",
+      "stage": "Pre-Revenue",
+      "fundedby": "Tata Group"
+    },
+    {
+      "id": 6,
+      "companies": "SevenEleven",
+      "country": "United States",
+      "industry": "Retail",
+      "stage": "Public",
+      "fundedby": "BlackRock"
+    },
+    {
+      "id": 7,
+      "companies": "BL Group",
+      "country": "Srilanka",
+      "industry": "Shipping",
+      "stage": "Series-C",
+      "fundedby": "JRK FinGroup"
+    },
+    {
+      "id": 8,
+      "companies": "Helly",
+      "country": "New Zeland",
+      "industry": "Furniture",
+      "stage": "Series-A",
+      "fundedby": "Zee Capital"
+    },
+    {
+      "id": 9,
+      "companies": "Tesla",
+      "country": "United States",
+      "industry": "Automotive",
+      "stage": "Public",
+      "fundedby": "Public"
+    },
+    {
+      "id": 10,
+      "companies": "Jster",
+      "country": "Uganda",
+      "industry": "Agriculture",
+      "stage": "Seed",
+      "fundedby": "Tiger Capitals"
+    }
+  ]
+}
