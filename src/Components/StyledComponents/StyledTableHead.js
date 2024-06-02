@@ -1,5 +1,4 @@
 import { styled, TableHead } from "@mui/material";
-import CustomTableHead from "../CustomTableHead/CustomTableHead";
 
 export const StyledTableHead = styled(TableHead)`
   

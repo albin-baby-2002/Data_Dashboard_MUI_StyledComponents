@@ -36,17 +36,11 @@ export const ResponsiveButtonTypography = styled(Typography)`
   ${({ theme }) => `
        
         font-size: 14px;
-       
-       
         
         @media (min-width: ${theme.breakpoints.values.md}px) {
             font-size: ${theme.typography.body2.fontSize};
           
         }
-        
-        
-     
-
        
     `}
 `;

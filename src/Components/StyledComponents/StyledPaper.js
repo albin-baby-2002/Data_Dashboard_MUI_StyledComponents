@@ -6,7 +6,6 @@ export const StyledPaper = styled(Paper)`
   padding: ${(props) => props.padding};
   background-color: ${(props) => props.bgcolor};
   border-radius: ${(props) => props.borderradius};
-
   flex-direction: ${(props) => props.flexDirection};
   align-items: ${(props) => props.alignitems};
   justify-content: ${(props) => props.justifycontent};
